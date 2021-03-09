@@ -1,7 +1,11 @@
-let firstValue = prompt("Entrez première valeur") 
-let operator = prompt("Entrez l'opérateur")
-let secondValue = prompt("Entrez seconde valeur")
+const firstValue = parseInt(prompt("Entrez première valeur")) 
+const operator = prompt("Entrez l'opérateur")
+const secondValue = parseInt(prompt("Entrez seconde valeur"))
 
-console.log(firstValue)
-console.log(operator)
-console.log(secondValue)
+if(operator === "+") {  
+    console.log(firstValue + secondValue);
+    }
+    else {
+        console.log(firstValue - secondValue);
+    }
+        
